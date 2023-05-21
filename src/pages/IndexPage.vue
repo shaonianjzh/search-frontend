@@ -26,7 +26,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, watchEffect } from "vue";
+import { onActivated, ref, watchEffect } from "vue";
 import PostList from "@/components/PostList.vue";
 import PictureList from "@/components/PictureList.vue";
 import UserList from "@/components/UserList.vue";
